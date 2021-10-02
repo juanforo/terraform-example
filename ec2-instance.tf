@@ -23,8 +23,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.medium"
 
   tags = {
-    Name = "Changed",
-    Owner = "Hashicorp",
-    Environment = "Dev"
+    Name = "Changed"
   }
 }
